@@ -1,0 +1,1169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex  
+}
+*/*Menu divni yashirish uchun yaratilgan div*/
+.asosjon{
+  margin-left: -21%;
+  margin-top: 1%;
+  width: 385px;
+  height: 90vh;
+  background: white;
+  z-index: 999;
+  overflow: hidden;
+  /* display: none; */
+}
+/*Menu divni yashirish uchun yaratilgan div*/
+
+/*Asosiy div yani katta div*/
+.asosiy-div{
+   overflow: hidden;
+    margin-top: 1%;
+    width: 450px;
+    height: 90vh;
+    background: rgba(183, 183, 183, 0.457);
+}
+/*Asosiy div yani katta div*/
+/*Storits-item va storist videolar*/
+.storist-item{
+  width: 29.5%;
+  height: 90vh;
+  background: purple;
+  position: fixed;
+  z-index: 99;
+  display: none;
+}
+.item-back{
+  width: 100%;
+  height: 60px;
+  background: gray;
+}
+/* Menu yani  Menyu qismi*/
+/*Contact item*/
+.contact-item1{
+  width: 29.5%;
+  height: 90vh;
+  background: rgb(138, 94, 138);
+  position: fixed;
+  z-index: 99;
+  display: none;
+}
+/*Contact item*/
+  /*Menu*/
+.menu{
+  overflow: hidden;
+width: 25%;
+height: 90%;
+transition: 1s;
+z-index: 99;
+position: fixed;
+margin-left: -385px;
+border-right: 1px solid rgb(186, 186, 186);
+/* display: none; */
+}
+  /*Menu*/
+
+  /*Mening profilim*/
+.my-profile{
+    width: 100%;
+    height: 25%;
+ background: #5490cd;
+}  
+  /*Mening profilim*/
+
+  /*Profil rasmi*/
+.profile-img{
+    width: 80%;
+    height: 100px;
+    float: left;
+}
+.profile-img img{
+    width: 90px;
+    height: 90%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+  /*Profil rasmi*/
+
+
+  /*Tun-kun rejim tugmasi*/
+.night-btn{
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+#moon{
+    font-size: 31px;
+    transform: rotate(230deg);
+    color: white;
+    margin-top: 30%;
+    cursor: pointer; 
+}
+#sun{
+    font-size: 25px;
+    transform: rotate(230deg);
+    color: rgb(255, 255, 255);
+    margin-top: 30%;
+    cursor: pointer;
+    display: none;
+   
+}
+  /*Tun-kun rejim tugmasi*/
+
+  /*Profil Ismi va nomeri*/
+.profile-name{
+    width: 100%;
+    height: 100%;
+  
+    /* display: flex; */
+}
+.profile-name h3{
+    margin-left: 5%;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+ font-weight: 600;
+ color: white;
+}
+.profile-name p{
+  font-family: sans-serif;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 18px;
+    color: rgb(183, 216, 254);
+    float: left;
+}
+.profile-name i{
+    margin-left:210px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: white;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.profile-name i:hover{
+  color: aqua;
+  transition: 0.4s;
+}
+   /*Profil Ismi va nomeri*/
+
+
+
+/*Buttons yani profildan keyingi tugmalar va sozlamlar*/
+  /*Buttons*/
+ .buttons{
+  cursor: pointer;
+    width: 100%;
+    height: 75%;
+    background: rgb(255, 255, 255);
+  /*Buttons*/
+ }
+
+ /*BTN COLORS*/
+ .btn-color{
+  color: rgb(77, 77, 77);
+ } 
+ /*BTN COLORS*/
+
+ /*Button tugmalar*/
+ .button1{
+  display: flex;
+    width: 100%;
+    height: 42px;
+    color: rgb(77, 77, 77);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .button1 i{
+   margin: 10px;
+   margin-left: 20px;
+    font-size: 22px;
+    color: rgb(130, 145, 163);
+ }
+ .button1 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 28px;
+  font-weight: 600;
+  color: rgb(77,77,77);
+ }
+ .button1:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+  transition: 0.3s;
+ }
+
+ /*button 2*/
+ .button2{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    border-bottom: 2px solid rgb(77, 141, 194);
+ }
+ .button2 i{
+  margin: 10px;
+  margin-left: 20px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+}
+.button2 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 28px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+}
+.button2:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+/*Button 3*/
+ .button3{
+    width: 100%;
+    height: 42px;
+    display: flex;
+ }
+ .button3 i{
+  margin: 10px;
+  margin-left: 20px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button3 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 23px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button3:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+ /*Button 4*/
+ .button4{
+    width: 100%;
+    height: 42px;
+    display: flex;
+ }
+ .button4 i{
+  margin: 10px;
+  margin-left: 24px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button4 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 27px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button4:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+/*button 5*/
+ .button5{
+  display: flex;
+    width: 100%;
+    height: 42px;
+ }
+ .button5 i{
+  margin: 10px;
+  margin-left: 25px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button5 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 25px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button5:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+ /*button 6*/
+ .button6{
+  display: flex;
+    width: 100%;
+    height: 42px;
+ }
+ .button6 i{
+  margin: 10px;
+  margin-left: 25px;
+   font-size: 25px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button6 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 33px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button6:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+ /*button 7*/
+ .button7{
+    width: 100%;
+    height: 42px;
+    display: flex;
+ }
+ .button7 i{
+  margin: 10px;
+  margin-left: 25px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button7 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 30px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button7:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+ /*Button 8*/
+  .button8{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+ }
+ .button8 i{
+  margin: 10px;
+  margin-left: 24px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button8 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 26px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button8:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+ /*Button 8 tugashi */
+ #border{
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: rgb(77, 141, 194);
+
+ }
+ /*Button 9*/
+ .button9{
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+ }
+ .button9 i{
+  margin: 10px;
+  margin-left: 25px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button9 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button9:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+
+ /*Button 10*/
+ .button10{
+  width: 100%;
+  height: 40px;
+  display: flex;
+ }
+ .button10 i{
+  margin: 10px;
+  margin-left: 25px;
+   font-size: 21px;
+   color: rgb(130, 145, 163);
+ 
+ }
+ .button10 p{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 8px;
+  margin-left: 26px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+ }
+ .button10:hover{
+  background:rgba(194, 194, 194, 0.349);
+  backdrop-filter: blur(100px);
+ }
+ /*Button 10 , Buttons qismi tugadi*/
+ /* Menu yani  Menyu qismi*/
+
+ /*Navbar Qismi yani telegram boshlanishidagi navnbar*/
+ /*Navbar Qism*/
+ .navbar-qism{
+  margin-top: -10px;
+    width: 100%;
+    height: 30%;
+    background: #5490cd;
+    z-index: -99;
+    /* display: inline-block; */
+   
+ }
+  /*Navbar Qism*/
+
+  /*Btn telegram qidiruv*/
+  .btn{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    
+  }
+  /*Btn telegram qidiruv*/
+
+#menu-btn{
+    color: white;
+    font-size: 28px;
+    margin: 10px;
+    cursor:pointer;
+}
+.btn h3{
+  color: white;
+  font-size: 22px;
+  margin-top: 12px;
+  margin-left: 30px;
+  font-weight: 550;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+#search-btn{
+  color: white;
+  margin: 15px;
+  margin-left: 53%;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*Navbar qismidagi btnlar :hover*/
+#search-btn:hover{
+  color: aqua;
+  transition: 0.4s;
+}
+#menu-btn:hover{
+  color: aqua;
+  transition: 0.4s;
+}
+/*Navbar qismidagi btnlar :hover*/
+  /* Bu div Btn telegram qidiruv larni oz ichiga olgan*/
+
+  /*Storistlar */
+  .storist{
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+   background: #5490cd;
+    display: flex;
+    overflow-x: scroll;
+    
+    
+  }
+  .storist::-webkit-scrollbar{
+    height: 1px;
+    /* background: rgb(0, 187, 255); */
+  }
+  .storist::-webkit-scrollbar-thumb{
+    /* background: rgb(255, 0, 0); */
+    border-radius: 10px;
+}
+  /*Storist 1*/
+  .storist1{
+    cursor: pointer;
+    width: 20%;
+    margin-top: 3px;
+    height: 100px;
+    margin-left: 0px;
+    /* background: linear-gradient(yellow,green) */
+  }
+  .storist1 img{
+    object-fit: cover;
+    margin: 10px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top:3px solid rgb(0, 255, 115);
+    border-right:3px solid rgb(107, 255, 211);
+    border-bottom:3px solid rgb(65, 255, 97);
+    border-left:3px solid rgb(0, 255, 221);
+
+  }
+  .storist1 p{
+    margin-left: 20px;
+    margin-top: -32px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+
+  }
+  .storist1 i{
+    position: relative;
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    padding-left: 2px;
+    padding-top: 1px;
+    color: rgb(103, 103, 103);
+    top: -35px;
+    left: 55px;
+    font-size: 20px;
+  }
+  /*Storist hover*/
+  .storist img:hover{
+    border: 3px dashed rgb(255, 0, 0);
+    transition:0.5s;
+    cursor: pointer;
+  }
+  /*Storist hover*/
+  /*Storist 2*/
+  .storist2{
+    width: 20%;
+    height: 100px;
+    margin-left: -5px;
+  
+  }
+  .storist2 img{
+    object-fit: cover;
+    margin-top: 13px;
+    margin-left: 9px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top:3px solid rgb(0, 255, 115);
+    border-right:3px solid rgb(107, 255, 211);
+    border-bottom:3px solid rgb(65, 255, 97);
+    border-left:3px solid rgb(0, 255, 221);
+  }
+  .storist2 p{
+    margin-left: 19px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+  }
+  /*Storist 3*/
+  .storist3{
+    width: 20%;
+    height: 100px;
+    margin-left: 5px;
+  }
+  .storist3 img{
+    object-fit: cover;
+    margin-top: 13px;
+    margin-left: 9px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top:3px solid rgb(0, 255, 115);
+    border-right:3px solid rgb(107, 255, 211);
+    border-bottom:3px solid rgb(65, 255, 97);
+    border-left:3px solid rgb(0, 255, 221);
+  }
+  .storist3 p{
+    margin-left: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+  }
+  /*Storist 4*/
+  .storist4{
+    width: 20%;
+    height: 100px;
+    margin-left: 5px;
+  }
+  .storist4 img{
+    object-fit: cover;
+    margin-top: 13px;
+    margin-left: 9px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top:3px solid rgb(0, 255, 115);
+    border-right:3px solid rgb(107, 255, 211);
+    border-bottom:3px solid rgb(65, 255, 97);
+    border-left:3px solid rgb(0, 255, 221);
+  }
+  .storist4 p{
+    margin-left: 12px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+  }
+  /*Storist 5*/
+  .storist5{
+    width: 18%;
+    height: 100px;
+    margin-left: 5px;
+  }
+  .storist5 img{
+    object-fit: cover;
+    margin-top: 13px;
+    margin-left: 9px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top:3px solid rgb(0, 255, 115);
+    border-right:3px solid rgb(107, 255, 211);
+    border-bottom:3px solid rgb(65, 255, 97);
+    border-left:3px solid rgb(0, 255, 221);
+  }
+  .storist5 p{
+    margin-left: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+  }
+ /*Storist 6*/
+ .storist6{
+  margin-left: 5px;
+  width: 10%;
+  height: 90px;
+ }
+ .storist6 img{
+  object-fit: cover;
+  margin-top: 13px;
+  margin-left: 9px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-top:3px solid rgb(0, 255, 115);
+  border-right:3px solid rgb(107, 255, 211);
+  border-bottom:3px solid rgb(65, 255, 97);
+  border-left:3px solid rgb(0, 255, 221);
+}
+.storist6 p{
+  margin-left: 16px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+/*Storist 7*/
+.storist7{
+  width: 20%;
+  height: 90px;
+  margin-left: 33px;
+
+}
+.storist7 img{
+  object-fit: cover;
+  margin-top: 13px;
+  margin-left: 9px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-top:3px solid rgb(0, 255, 115);
+  border-right:3px solid rgb(107, 255, 211);
+  border-bottom:3px solid rgb(65, 255, 97);
+  border-left:3px solid rgb(0, 255, 221);
+}
+.storist7 p{
+  margin-left: 9px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+/*Storist*/
+  /*Jild jildlar*/
+  .jild{
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    background: #5490cd;
+    display: flex;
+    overflow-x: scroll;
+    /* border-top: 1px solid rgb(43, 100, 165); */
+  }
+  .jild::-webkit-scrollbar{
+    height: 1px;
+    background:none;
+  }
+  /*Jild 1...........*/
+  .jild1{
+    margin-left: 18px;
+    width: 30%;
+    cursor: pointer;
+    height: 90%;
+    transition: 0.2s;
+    border-bottom: 5px solid white;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .jild1 p{
+    font-family: 'Arimo', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 9px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+     /*Jild 2...........*/
+  .jild2{
+    margin-left: 35px;
+    width: 30%;
+    cursor: pointer;
+    height: 90%;
+    transition: 0.2s;
+    /* border-bottom: 5px solid rgb(0, 21, 255);
+    border-radius: 0px 0px 5px 5px; */
+  }
+  .jild2 p{
+    font-family: 'Arimo', sans-serif;
+    color: rgba(232, 232, 232, 0.753);
+    margin-top: 9px;
+    margin-left: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+    /*Jild 3...........*/
+  .jild3{
+    cursor: pointer;
+    margin-left: 30px;
+    width: 30%;
+    height: 90%;
+    transition: 0.2s;
+    /* border-bottom: 5px solid rgb(0, 21, 255);
+    border-radius: 0px 0px 0px 5px; */
+  }
+  .jild3 p{
+    font-family: 'Arimo', sans-serif;
+    color: rgba(232, 232, 232, 0.753);
+    margin-top: 9px;
+    margin-left: 3px;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  /*Jild 4 .............*/
+  .jild4{
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 15px;
+    width: 15%;
+    height: 90%;
+    transition: 0.2s;
+
+  }
+  .jild4 p{
+    font-family: 'Arimo', sans-serif;
+    color: rgba(232, 232, 232, 0.753);
+    margin-top: 9px;
+    margin-left: 17px;
+    font-size: 15px;
+  }
+   /*Jild 4 .............*/
+   /*Jild 5 .............*/
+   .jild5{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 25%;
+    height: 85%;
+    transition: 0.2s;
+  }
+  .jild5 p{
+    font-family: 'Arimo', sans-serif;
+    color: rgba(232, 232, 232, 0.753);
+    margin-top: 9px;
+    font-size: 15px;
+  }
+  /*Jild 5 .............*/
+     /*Jild 6 .............*/
+     .jild6{
+      cursor: pointer;
+      margin-left: 32px;
+      margin-right: 5px;
+      width: 30%;
+      height: 90%;
+      transition: 0.2s;
+    }
+    .jild6 p{
+      font-family: 'Arimo', sans-serif;
+      color: rgba(232, 232, 232, 0.753);
+      margin-top: 9px;
+      margin-left: 2px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    /*Jild 6 .............*/
+   /*Jild gruppa va kanallar tugashi*/
+
+   /*<!--Chat contackt gruppa va xabarlar .....NEWS.....-->*/
+   .news{
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height:233%;
+    /* background: rgba(24, 25, 25, 0.922); */
+    background: white;
+
+   }
+   .news::-webkit-scrollbar{
+    background:none;
+    width: 3px;
+    border-radius: 10px;
+   }
+   .news::-webkit-scrollbar-thumb{
+    background: #cfcfcf;
+
+   }
+   /*NEWS*/
+
+   /*news 1*/
+   .news1{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.324);
+   }
+   .news1 img{
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 53px;
+    height: 50px;
+    border-radius: 50%;
+   }
+   .news1 p{
+    margin-top: 16px;
+    margin-left: 17px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
+   }
+   .news1:hover{
+    cursor: pointer;
+    background:rgba(194, 194, 194, 0.349);
+   }
+    /*news 1*/
+    /*news 2*/
+    .news2{
+      display: flex;
+      width: 100%;
+      height: 55px;
+      border-bottom: 1px solid rgba(76, 76, 76, 0.324);
+     }
+     .news2 img{
+      border: 1px solid rgb(83, 83, 83);
+      margin-top: 2px;
+      display: inline-block;
+      margin-left: 10px;
+      width: 53px;
+      height: 50px;
+      border-radius: 50%;
+     }
+     .news2 p{
+      margin-top: 16px;
+      margin-left: 20px;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: 'Ubuntu', sans-serif;
+     }
+     .news2:hover{
+      cursor: pointer;
+      background:rgba(194, 194, 194, 0.349);
+     }
+     /*news 2*/
+     /*news 3*/
+     .news3{
+      display: flex;
+      width: 100%;
+      height: 55px;
+      border-bottom: 1px solid rgba(76, 76, 76, 0.324);
+     }
+     .news3 li{
+      margin-top: 2px;
+      margin-left: 10px;
+      width: 38px;
+      height: 35px;
+      background: linear-gradient( 120deg,rgb(255,140,0)0%,red 50%,rgb(255, 140, 0)100%);
+      list-style: none;
+      border-radius: 50%;
+      padding-top: 14px;
+      padding-left: 13px;
+      font-size: 20px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      color: white;
+     }
+     .news3 p{
+      margin-top: 18px;
+      margin-left: 24px;
+      font-weight: 600;
+      font-size: 18px;
+      font-family: 'Ubuntu', sans-serif;
+     }
+     .news3:hover{
+      cursor: pointer;
+      background:rgba(194, 194, 194, 0.349);
+     }
+     /*news 3*/
+     /*News 4*/
+     .news4{
+      display: flex;
+      width: 100%;
+      height: 55px;
+      border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+     }
+     .news4 img{
+      /* border: 1px solid rgb(83, 83, 83); */
+      margin-top: 2px;
+      display: inline-block;
+      margin-left: 10px;
+      width: 53px;
+      height: 50px;
+      border-radius: 50%;
+     }
+     .news4 p{
+      margin-top: 16px;
+      margin-left: 22px;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: 'Ubuntu', sans-serif;
+     }
+     .news4:hover{
+      cursor: pointer;
+      background:rgba(194, 194, 194, 0.349);
+     }
+     /*News 4*/
+          /*News 5*/
+          .news5{
+            display: flex;
+            width: 100%;
+            height: 55px;
+            border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+           }
+           .news5 img{
+            /* border: 1px solid rgb(83, 83, 83); */
+            margin-top: 2.5px;
+            display: inline-block;
+            margin-left: 10px;
+            width: 53px;
+            height: 50px;
+            border-radius: 50%;
+           }
+           .news5 p{
+            margin-top: 16px;
+            margin-left: 22px;
+            font-weight: 500;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           }
+           .news5:hover{
+            cursor: pointer;
+            background:rgba(194, 194, 194, 0.349);
+           }
+           /*News 5*/
+          /*News 6*/
+          .news6{
+            display: flex;
+            width: 100%;
+            height: 55px;
+            border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+           }
+           .news6 img{
+            /* border: 1px solid rgb(83, 83, 83); */
+            margin-top: 2.5px;
+            display: inline-block;
+            margin-left: 10px;
+            width: 52px;
+            height: 50px;
+            border-radius: 50%;
+           }
+           .news6 p{
+            margin-top: 18px;
+            margin-left: 23px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: 'Outfit', sans-serif;
+           }
+           .news6:hover{
+            cursor: pointer;
+            background:rgba(194, 194, 194, 0.349);
+           }
+           /*News 6*/
+            /*News 7*/
+            .news7{
+              display: flex;
+              width: 100%;
+              height: 55px;
+              border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+             }
+             .news7 img{
+              /* border: 1px solid rgb(83, 83, 83); */
+              margin-top: 2.5px;
+              display: inline-block;
+              margin-left: 10px;
+              width: 53px;
+              height: 50px;
+              border-radius: 50%;
+             }
+             .news7 p{
+              margin-top: 16px;
+              margin-left: 22px;
+              font-weight: 500;
+              font-size: 20px;
+              font-family:  'Outfit', sans-serif;
+             }
+             .news7:hover{
+              cursor: pointer;
+              background:rgba(194, 194, 194, 0.349);
+             }
+             /*News 7*/
+             /*News 8*/
+             .news8{
+              display: flex;
+              width: 100%;
+              height: 55px;
+              border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+             }
+             .news8 img{
+              /* border: 1px solid rgb(83, 83, 83); */
+              margin-top: 3px;
+              display: inline-block;
+              margin-left: 10px;
+              width: 53px;
+              height: 50px;
+              border-radius: 50%;
+             }
+             .news8 p{
+              margin-top: 16px;
+              margin-left: 22px;
+              font-weight: 500;
+              font-size: 20px;
+              font-family: 'Outfit', sans-serif;
+             }
+             .news8:hover{
+              cursor: pointer;
+              background:rgba(194, 194, 194, 0.349);
+             }
+  /*News 8*/
+  /*News 9*/
+  .news9{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+   }
+   .news9 img{
+    /* border: 1px solid rgb(83, 83, 83); */
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 53px;
+    height: 50px;
+    border-radius: 50%;
+   }
+   .news9 p{
+    margin-top: 16px;
+    margin-left: 22px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+   }
+   .news9:hover{
+    cursor: pointer;
+    background:rgba(194, 194, 194, 0.349);
+   }
+   /*News 9*/
+   /*News 10*/
+   .news10{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.379);
+   }
+   .news10 img{
+    /* border: 1px solid rgb(83, 83, 83); */
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 53px;
+    height: 50px;
+    border-radius: 50%;
+   }
+   .news10 p{
+    margin-top: 16px;
+    margin-left: 22px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+   }
+   .news10:hover{
+    cursor: pointer;
+    background:rgba(194, 194, 194, 0.349);
+   }
+   /*News 10*/
+
+   /*<!--Chat contackt gruppa va xabarlar .....NEWS.....-->*/
+
+   /*Channels */
+   .channels{
+    width: 100%;
+    height: 233%;
+    background: rgb(116, 0, 0);
+    display: none;
+   }
+    /*Channels */
+    /*Groups*/
+    .groups{
+      width: 100%;
+      height: 233%;
+      background: rgb(0, 116, 21);
+      display: none;
+    }
+      /*Groups*/
+      /*Contacts*/
+      .contacts{
+        width: 100%;
+        height: 233%;
+        background: rgb(106, 0, 116);
+        display: none;
+      }
+      /*Contacts*/
